@@ -11,16 +11,18 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^3.0.2",
+    "graphql-cli": "^2.17.0",
     "graphql-yoga": "^1.16.7",
-    "prisma-binding": "^2.2.8",
-    "uuid": "^3.3.2"
+    "jsonwebtoken": "^8.4.0",
+    "prisma-binding": "^2.2.8"
   },
   "devDependencies": {
-    "@babel/cli": "^7.1.5",
-    "@babel/core": "^7.1.6",
-    "@babel/node": "^7.0.0",
-    "@babel/plugin-transform-spread": "^7.0.0",
-    "@babel/preset-env": "^7.1.6",
+    "@babel/cli": "^7.2.0",
+    "@babel/core": "^7.2.0",
+    "@babel/node": "^7.2.0",
+    "@babel/plugin-transform-spread": "^7.2.0",
+    "@babel/preset-env": "^7.2.0",
     "nodemon": "^1.18.7"
   }
 }
